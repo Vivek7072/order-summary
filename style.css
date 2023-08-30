@@ -1,0 +1,108 @@
+body {
+    background: hsl(225, 100%, 94%);
+  }
+  .main-contatiner {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    top: 10%;
+  }
+  .inside-container {
+    height: 200px;
+    width: auto;
+  }
+  .image-div {
+    margin-bottom: -5px;
+  }
+  h1 {
+    margin: 0;
+    font-family: 'Red Hat Display';
+    text-align: center;
+    line-height: 12px;
+  }
+  .text-group{
+    margin-top: 24px;
+  }
+  .text{
+    font-family: 'Red Hat Display';
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 18px;
+    margin: 0;
+    text-align: center;
+  }
+  .title{
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .text-2{
+    font-size: 14px;
+    opacity: .5;
+    text-align: left;
+  }
+  .bottom-div{
+    padding: 46px 32px 32px 32px;
+    width: auto;
+    background: white;  
+    border-radius: 0 0 18px 18px;      
+  }
+  .music-container{
+    background: hsl(225, 100%, 97%);
+    border-radius: 10px;
+    padding: 8px 20px 6px 20px;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .music-outer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 12px;
+  }
+  .button-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;          
+  }
+  .button-div div{
+    margin-top: 28px;
+    width: 95%;
+  }
+  button{
+    padding: 12px 24px;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    background: hsl(245, 75%, 52%);
+  }
+  button:hover{        
+    background: hsl(245, 70%, 60%);
+  }
+  img{
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+  }
+  .hover-text:hover{
+    color: hsl(245, 75%, 52%);
+    cursor: pointer;
+  }
+  .cancel-text:hover{
+    opacity: 1;
+  }
+  .cancel-text{
+    margin: 0;
+    margin-top: 24px;
+    opacity: .5;
+    font-family: 'Red Hat Display';
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 18px;        
+    text-align: center;
+    cursor: pointer;
+  }
